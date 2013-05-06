@@ -1,0 +1,28 @@
+// DOSBOX COMMANDS , Note '//' are comments in this code on how to use Dosbox to start CUSP
+//open chasm
+MOUNT C C:\Assembly   //Assuming all of the files for CUSP are located in folder "Assembly" which is within C:\ and the source code
+C:
+
+//use chasm
+CHASM.EXE
+<filename>    // enter the filename to CHASM to build the code
+enter
+enter
+enter
+Alt + x   //returns from CHASM to DosBox
+
+//open cusp
+CUSP.EXE
+enter
+f
+l
+mini_OS   //enter into prompt
+enter
+esc
+l
+<filename>   //enter into prompt
+esc
+Alt-H
+B
+000
+enter
